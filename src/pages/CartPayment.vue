@@ -10,7 +10,7 @@ import UiContainer from '@/components/ui/UiContainer.vue'
 import ViewHeader from '@/components/view/ViewHeader.vue'
 import { useCart } from '@/composables/payment/useCart'
 
-const { cart, increaseQuantity, payMethod, subtractAmount } = useCart()
+const { cart, increaseQuantity, payMethod, subtractAmount, clearCart } = useCart()
 console.log(cart)
 </script>
 
@@ -56,7 +56,7 @@ console.log(cart)
         </div>
       </article>
       <article class="mt-10">
-        <PaymentDetails :cart="cart" :pay-method="payMethod" />
+        <PaymentDetails :cart="cart" :pay-method="payMethod" @clear="clearCart" />
       </article>
     </section>
   </UiContainer>

@@ -9,6 +9,8 @@ const { cart } = defineProps<{
   payMethod: 'cash' | 'card'
 }>()
 
+defineEmits(['clear'])
+
 const received = ref('')
 const receivedIsEmpty = computed(() => {
   return received.value === ''
@@ -70,6 +72,6 @@ const change = computed(() => {
     </ul>
   </div>
   <RouterLink to="/order-complete" class="mt-10 block">
-    <UiButton> Finalizar Ventar </UiButton>
+    <UiButton @click="$emit('clear')"> Finalizar Venta </UiButton>
   </RouterLink>
 </template>

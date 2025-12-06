@@ -14,10 +14,15 @@ export function useCart() {
     cartStore.decrement(productId)
   }
 
+  const clearCart = () => {
+    cartStore.clear()
+  }
+
   return {
     cart: cartStore.cart,
     payMethod,
     increaseQuantity,
     subtractAmount,
+    clearCart,
   }
 }
