@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+:root {
+  --primary: #ec1349;
+  --background: #f9f7f6;
+  --primary-thin: #f5c9d4;
+  --secondary: #e85a75;
+  --disabled: #f1f5f9;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-background: var(--background);
+  --color-primary-thin: var(--primary-thin);
+  --color-disabled: var(--disabled);
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Poppins', sans-serif;
+  font-display: swap;
+  -webkit-font-smoothing: antialiased;
+}

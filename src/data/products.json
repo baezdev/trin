@@ -1,0 +1,90 @@
+[
+  {
+    "id": "helado-doble-helado",
+    "name": "Helado doble",
+    "price": 30,
+    "category": "ice-cream",
+    "image": "helado-doble.webp",
+    "amount": 1
+  },
+  {
+    "id": "helado-solo-helado",
+    "name": "Helado solo",
+    "price": 20,
+    "category": "ice-cream",
+    "image": "helado.webp",
+    "amount": 1
+  },
+  {
+    "id": "helado-vaso-helado",
+    "name": "Vaso de helado",
+    "price": 20,
+    "category": "ice-cream",
+    "image": "helado-vaso.webp",
+    "amount": 1
+  },
+  {
+    "id": "paleta-chica-paleta",
+    "name": "Paleta chica",
+    "price": 8,
+    "category": "pallets",
+    "image": "paleta-pequeña.webp",
+    "amount": 1
+  },
+  {
+    "id": "paleta-grande-paleta",
+    "name": "Paleta grande",
+    "price": 20,
+    "category": "pallets",
+    "image": "paleta-grande.webp",
+    "amount": 1
+  },
+  {
+    "id": "paleta-gourmet-paleta",
+    "name": "Paleta gourmet",
+    "price": 30,
+    "category": "pallets",
+    "image": "paleta-gourmet.webp",
+    "amount": 1
+  },
+  {
+    "id": "bolis-otros",
+    "name": "Bolis",
+    "price": 12,
+    "category": "others",
+    "image": "bolis.webp",
+    "amount": 1
+  },
+  {
+    "id": "sandwich-otros",
+    "name": "Sandwich",
+    "price": 15,
+    "category": "others",
+    "image": "sandwich.webp",
+    "amount": 1
+  },
+  {
+    "id": "canasta-otros",
+    "name": "Canasta de helado",
+    "price": 55,
+    "category": "ice-cream",
+    "image": "canasta.webp",
+    "amount": 1
+  },
+  {
+    "id": "agua-litro-aguas",
+    "name": "Agua de 1 litro",
+    "price": 30,
+    "category": "waters",
+    "image": "aguas-litro.webp",
+    "amount": 1
+  },
+  {
+    "id": "agua-medio-aguas",
+    "name": "Agua de 1/2 litro",
+    "price": 20,
+    "category": "waters",
+    "image": "aguas-medio.webp",
+    "amount": 1
+  }
+]
