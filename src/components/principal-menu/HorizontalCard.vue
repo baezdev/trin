@@ -11,11 +11,15 @@ import IconArrow from '../icons/IconArrow.vue'
       alt="Imagen de halado, con monedas"
       class="rounded-xl w-20 aspect-square object-cover"
     />
-
-    <p class="flex flex-col text-lg font-semibold">
-      Historial de Ventas
-      <span class="text-base font-normal">Ver transacciones pasadas</span>
-    </p>
+    <div>
+      <span class="bg-green-200 text-green-700 px-3.5 py-0.5 rounded-full text-sm"
+        >Proximamente</span
+      >
+      <p class="flex flex-col text-lg font-semibold">
+        Historial de Ventas
+        <span class="text-base font-normal">Ver transacciones pasadas</span>
+      </p>
+    </div>
 
     <IconArrow />
   </article>

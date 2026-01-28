@@ -9,7 +9,7 @@ import HorizontalCard from './HorizontalCard.vue'
     <RouterLink to="/products-catalog">
       <VerticalCard />
     </RouterLink>
-    <RouterLink to="/sales-history">
+    <RouterLink to="">
       <HorizontalCard />
     </RouterLink>
   </section>
